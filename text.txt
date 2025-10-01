@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的履歷表</title>
+  <style>
+    body {
+      font-family: "Microsoft JhengHei", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f9;
+      color: #333;
+    }
+    header {
+      background: #4CAF50;
+      color: white;
+      padding: 20px;
+    }
+    .header-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    header img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid white;
+    }
+    .info {
+      text-align: left;
+    }
+    section {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+      background: white;
+      margin-top: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    h2 {
+      border-bottom: 2px solid #4CAF50;
+      padding-bottom: 5px;
+      margin-top: 0;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    ul li {
+      margin-bottom: 8px;
+    }
+    footer {
+      text-align: center;
+      margin: 20px 0;
+      color: #777;
+    }
+    .download-btn {
+      display: inline-block;
+      background: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .download-btn:hover {
+      background: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-container">
+      <img src="profile.jpg" alt="我的大頭貼">
+      <div class="info">
+        <h1>蕭博駿</h1>
+        <p>Email: Borishsiao96@gmail.com</p>
+        <p>電話: 0900621975</p>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <h2>個人簡介</h2>
+    <p>我是智運一甲學生，我的興趣是打棒球，我是九年猿迷最討厭象迷。</p>
+  </section>
+
+  <section>
+    <h2>學歷</h2>
+    <ul>
+      <li>現今中原大學電機資訊學院智慧運算與大數據學士班</li>
+      <li>曾經嘉義嘉華高中</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>技能</h2>
+    <ul>
+      <li>投手均速100公里</li>
+      <li>打者轟過陳佳炫一支全壘打</li>
+      <li>語言能力：中文（母語）、英文（中級）</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 你的名字. All rights reserved.</p>
+    <p><a href="resume.pdf" class="download-btn" download>📄 下載 PDF 履歷</a></p>
+  </footer>
+
+</body>
+</html>
